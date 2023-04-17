@@ -1,270 +1,427 @@
+.hero-button,
+.footer-button {
+  background-image: url(Images/Group\ 1.svg);
+  border: none;
+  width: 188px;
+  height: 75px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 41px;
+}
+
+.nfts {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.nft {
+  background-color: #eeeeee;
+  border-radius: 17px;
+}
+
+.nft-desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.nft-desc-left {
+  margin-top: 18px;
+  margin-left: 24px;
+}
+
+.nft-desc-orange {
+  color: #ff8139;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.nft-name {
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.nft-number {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #777777;
+}
+
+.nft-desc-right {
+  margin-top: 18px;
+  margin-right: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nft-bid {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #777777;
+  font-weight: 600;
+}
+
+.nft-price {
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.nft-timeleft {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #777777;
+}
+
 .container1 {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 80px;
-    padding-right: 20px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
 }
+
 .header-options {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 .header-options li a {
-    margin-left: 28px;
-    text-decoration: none;
-    color: rgb(85, 85, 85);
-    font-weight: 500;
+  margin-left: 28px;
+  text-decoration: none;
+  color: #555555;
+  font-weight: 500;
 }
-.pink-option {
-    color: rgb(255, 57, 152);
-    margin-left: 28px;
-    text-decoration: none;
-    font-weight: 500;
-}
-.hero {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-}
-.hero-left {
-    margin-top: 200px;
-}
-.hero-pink-title {
-    color: rgb(255, 57, 152);
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.hero-title {
-    font-size: 96px;
-    margin: 0;
 
+.pink-option {
+  color: #ff3998;
+  margin-left: 28px;
+  text-decoration: none;
+  font-weight: 500;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 1fr;
+}
+
+.hero-left {
+  margin-top: 200px;
+}
+
+.hero-pink-title {
+  color: #ff3998;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-title {
+  font-size: 96px;
+  margin: 0;
+}
+
 .hero-content {
-    margin-top: 32px;
-    font-size: 20px;
-    width: 75%;
-    color: rgb(85, 85, 85);
+  margin-top: 32px;
+  font-size: 20px;
+  width: 89%;
+  color: #555555;
 }
-.hero-button {
-    background-image: url(Images/Group\ 1.svg);
-    border: none;
-    width: 188px;
-    height: 75px;
-    background-color: white;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 50px;
-    margin-top: 41px;
-}
+
 .hero-right {
-    margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 182px;
+  margin-bottom: 182px;
+  background-image: url(Images/Ellipse\ 10.png), url(Images/Ellipse\ 9.png);
+  background-repeat: no-repeat;
+  background-position-x: 50px, 30px;
+  background-position-y: 132px, 323px;
+  background-size: 95%, 60%;
 }
+
 .upsell {
-    background-image: url(Images/background.svg);
-    background-repeat: no-repeat;
-    height: 320px;
+  background-image: url(Images/background.svg);
+  background-repeat: no-repeat;
+  height: 320px;
 }
+
 .upsell-header {
-    font-size: 40px;
-    font-weight: 500;
-    padding-top: 154px;
-    padding-left: 64px;
-    margin: 0;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 154px;
+  padding-left: 64px;
+  margin: 0;
 }
+
 .upsell-content {
-    font-size: 20px;
-    padding-left: 64px;
+  font-size: 20px;
+  padding-left: 64px;
 }
+
 .press {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 120px;
 }
+
 .showcase-header {
-    margin-top: 120px;
-    font-size: 40px;
-    font-weight: 500;
+  margin-top: 120px;
+  font-size: 40px;
+  font-weight: 500;
 }
-.showcase-content,
+
+.showcase-content {
+  color: #555555;
+  font-size: 20px;
+}
 .showcase-content a {
-    color: rgb(85, 85, 85);
-    font-size: 20px;
+  color: #555555;
+  font-size: 20px;
 }
-.nfts {
-    margin-top: 56px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 40px;
+
+.footer-upsell {
+  border: 2px solid #eeeeee;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  margin-top: 120px;
+  padding-top: 120px;
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
-.nft {
-    background-color: rgb(238, 238, 238);
-    border-radius: 17px;
+
+.footer-pink-title {
+  color: #ff3998;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.nft-desc {
+
+.footer-header {
+  font-size: 56px;
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.footer-upsell-content {
+  color: #555555;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  width: 80%;
+}
+
+.footer-upsell-right {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-image {
+  margin-bottom: -6px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.footer-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.footer-logo {
+  height: 85%;
+}
+
+.footer-content {
+  color: #555555;
+  font-size: 20px;
+  line-height: 16px;
+}
+
+.footer-social {
+  margin-right: 16px;
+  margin-bottom: 123px;
+}
+
+.footer-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.footer-right ul {
+  list-style-type: none;
+}
+.footer-right li a {
+  text-decoration: none;
+}
+.footer-right ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.column-header {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #555555;
+}
+
+.column ul {
+  padding-top: 28px;
+}
+.column ul li {
+  margin-bottom: 10px;
+}
+.column ul li a {
+  color: #555555;
+  font-size: 20;
+  font-weight: 400;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  margin-bottom: 71px;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .container1 {
+    padding: 0;
+  }
+  header {
+    background-image: url(Images/menu.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    padding-left: 20px;
+  }
+  .header-options {
+    display: none;
+  }
+  .hero {
+    grid-template-columns: 70% 30%;
+    padding-left: 20px;
+  }
+  .hero-title {
+    font-size: 48px;
+  }
+  .hero-left {
+    margin-top: 50px;
+  }
+  .hero-right {
+    position: relative;
+    right: -50px;
+    top: -100px;
+  }
+  .press {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.nft-desc-left {
-    margin-top: 18px;
-    margin-left: 24px;
-}
-.nft-desc-orange {
-    color: rgb(255, 129, 57);
-    text-transform: uppercase;
-    font-size: 12px;
-}
-.nft-name {
-    font-weight: 700;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    font-size: 20px;
-}
-.nft-number {
-    font-size: 18px;
-    margin-bottom: 18px;
-    color: rgb(119, 119, 119);
-}
-.nft-desc-right {
-    margin-top: 18px;
-    margin-right: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-.nft-bid {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: rgb(119, 119, 119);
-    font-weight: 600;
-}
-.nft-price {
-    font-weight: 700;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    font-size: 20px;
-}
-.nft-timeleft {
-    font-size: 18px;
-    margin-bottom: 18px;
-    color: rgb(119, 119, 119);
-}
-.footer-upsell {
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 64px;
+  }
+  .press1 {
+    margin-bottom: 28px;
+  }
+  .press1:nth-child(4) {
+    display: none;
+  }
+  .showcase-header {
+    margin: 0;
+  }
+  .upsell {
+    margin-left: -15px;
+  }
+  .upsell-header {
+    padding-top: 122px;
+  }
+  .showcase {
+    margin-left: 32px;
+  }
+  .showcase-content {
+    display: block;
+    width: 80%;
+  }
+  .footer-upsell {
+    margin-left: 32px;
+    padding-bottom: 66px;
+  }
+  .footer-upsell-content {
     border: 2px solid rgb(238, 238, 238);
     border-left-color: transparent;
     border-right-color: transparent;
-    margin-top: 120px;
-    padding-top: 120px;
-    margin-bottom: 120px;
+    border-bottom-color: transparent;
+  }
+  .footer-upsell-right {
+    position: relative;
+    right: -90px;
+  }
+  .footer-image {
+    position: relative;
+    top: 66px;
+    height: 100%;
+  }
+  .footer {
+    margin-left: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 26% 1fr;
+  }
+  .footer-social {
+    margin-bottom: 0;
+  }
+  .footer-right {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.footer-pink-title {
-    color: rgb(255, 57, 152);
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.footer-header {
-    font-size: 56px;
-    margin: 0;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-.footer-upsell-content {
-    color: rgb(85, 85, 85);
-    font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    width: 80%;
-}
-.footer-button {
-    background-image: url(Images/Group\ 1.svg);
-    border: none;
-    width: 188px;
-    height: 75px;
-    background-color: white;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 50px;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  .column {
     margin-top: 40px;
-}
-.footer-upsell-right {
+  }
+  .footer-socials {
     display: flex;
-    justify-content: center;
-}
-.footer-image {
-    margin-bottom: -6px;
-}
-.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.footer-left {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 30px;
-}
-.footer-logo {
-    height: 85%;
-}
-.footer-content {
-    color: rgb(85, 85, 85);
-    font-size: 20px;
-    line-height: 16px;
-}
-.footer-social {
-    margin-right: 16px;
-    margin-bottom: 123px;
-}
-.footer-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.footer-right ul {
-    list-style-type: none;
-}
-.footer-right li a {
-    text-decoration: none;
-}
-.footer-right ul, li {
-    margin: 0;
-    padding: 0;
-}
-.column-header {
-    text-transform: uppercase;
-    font-weight: 500;
-    color: rgb(85, 85, 85);
-}
-.column ul {
-    padding-top: 28px;
-}
-.column ul li {
-    margin-bottom: 10px;
-}
-.column ul li a {
-    color: rgb(85, 85, 85);
-    font-size: 20;
-    font-weight: 400;
-}
-.footer-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: rgb(153, 153, 153);
-    font-size: 20px;
-    margin-bottom: 71px;
-}
+  }
+  .copyright {
+    margin-left: 32px;
+  }
+  .launching {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

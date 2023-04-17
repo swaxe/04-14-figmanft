@@ -1,0 +1,62 @@
+@use "colours"
+
+.nfts
+  margin-top: 56px
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-template-rows: 1fr
+  gap: 40px
+  overflow: hidden
+
+.nft
+  background-color: colours.$light-background
+  border-radius: 17px
+
+.nft-desc
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: 1fr
+
+.nft-desc-left
+  margin-top: 18px
+  margin-left: 24px
+
+.nft-desc-orange
+  color: colours.$nft-desc-bright
+  text-transform: uppercase
+  font-size: 12px
+
+.nft-name
+  font-weight: 700
+  margin-top: 6px
+  margin-bottom: 6px
+  font-size: 20px
+
+.nft-number
+  font-size: 18px
+  margin-bottom: 18px
+  color: colours.$dark-content
+
+.nft-desc-right
+  margin-top: 18px
+  margin-right: 24px
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-end
+
+.nft-bid
+  font-size: 12px
+  text-transform: uppercase
+  color: colours.$dark-content
+  font-weight: 600
+
+.nft-price
+  font-weight: 700
+  margin-top: 6px
+  margin-bottom: 6px
+  font-size: 20px
+
+.nft-timeleft
+  font-size: 18px
+  margin-bottom: 18px
+  color: colours.$dark-content
